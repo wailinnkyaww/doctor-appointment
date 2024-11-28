@@ -17,3 +17,26 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
+# Ignore system files
+.bash_history
+.gitconfig
+NTUSER.DAT*
+*.log
+*.exe
+
+# Ignore IDE and editor settings
+.vscode/
+.idea/
+
+# Ignore user directories and others
+Documents/
+Downloads/
+AppData/
+OneDrive/
+Pictures/
+Saved Games/
+Videos/
+node_modules/
+*.swp
+.DS_Store
+*.bak
